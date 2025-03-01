@@ -19,6 +19,8 @@ if bad_thing {
 }
 ```
 
+To compile out all logging, disable the `log/enabled` feature.
+
 License
 -------
 
