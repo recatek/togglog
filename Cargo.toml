@@ -1,7 +1,14 @@
 [package]
 name = "togglog"
 version = "0.1.0"
+authors = ["recatek"]
+description = "A compile-time toggle wrapper for the log crate"
 edition = "2024"
+repository = "https://github.com/recatek/togglog"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["log", "logging", "toggle", "optional"]
+categories = ["development-tools"]
 
 [features]
 enabled = ["dep:log"]
