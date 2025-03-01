@@ -103,6 +103,7 @@ mod logging {
     }
 
     /// See [`log::log_enabled`](https://docs.rs/log/latest/log/macro.log_enabled.html)
+    #[macro_export]
     macro_rules! log_enabled {
         (target: $target:expr, $lvl:expr $(,)?) => {
             false
