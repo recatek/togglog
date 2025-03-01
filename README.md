@@ -1,6 +1,6 @@
 togglog
 -------
-A toggle wrapper for the `log` crate.
+A compile-time toggle wrapper for the `log` crate.
 
 Add togglog to your dependencies as if it was the log crate:
 ```
